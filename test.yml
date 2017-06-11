@@ -1,5 +1,5 @@
 ---
 - name: check the disk status
-  hosts: 192.168.1.110
+  hosts: db
   roles:
      - test

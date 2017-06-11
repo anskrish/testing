@@ -12,3 +12,9 @@
 - name: uptime result
   debug:
     var: out
+- name: my name 
+  shell: echo {{ var }}
+  register: name
+- name: name 
+  debug:
+    var: name
