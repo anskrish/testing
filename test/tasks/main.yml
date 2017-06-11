@@ -8,6 +8,7 @@
 - name: check the uptime of the system
   shell: uptime
   register: out
+  when: ansible_os_family == "Debian"
 - name: uptime result
   debug:
     var: out
