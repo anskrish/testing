@@ -1,0 +1,5 @@
+---
+- name: check the disk status
+  hosts: db
+  roles:
+     - test

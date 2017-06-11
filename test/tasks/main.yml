@@ -1,0 +1,13 @@
+---
+- shell: df -h
+  register: result
+
+- name: installation results
+  debug:
+    var: result
+- name: check the uptime of the system
+  shell: uptime
+  register: out
+- name: uptime result
+  debug:
+    var: out
