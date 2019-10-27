@@ -1,5 +1,5 @@
-ami_release = "11"
-gitlab_version = "12.2.5"
+ami_release = "$myVariable"
+gitlab_version = "12.2.8"
 
 region = "us-west-2"
 vpc_id = "vpc-17522373"
